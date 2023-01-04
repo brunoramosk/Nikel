@@ -1,0 +1,5 @@
+.table, td, th, tr {
+    width: 500px;
+    text-align: center;
+    border: 1px solid red;
+}
