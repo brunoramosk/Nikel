@@ -69,7 +69,7 @@ function checkLogged(){
         const transactions = data.transactions;
         const cashIn = transactions.filter((item) => item.type === "1");
         
-        if(cashIn.lenght) {
+        if(cashIn.length) {
             let cashInHtml = ``;
             let limit = 0;
             
@@ -106,7 +106,7 @@ function checkLogged(){
         const cashIn = transactions.filter((item) => item.type === "2");
         
         
-        if(cashIn.lenght) {
+        if(cashIn.length) {
             let cashInHtml = ``;
             let limit = 0;
             

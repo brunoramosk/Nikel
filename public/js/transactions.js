@@ -20,7 +20,7 @@ document.getElementById("transaction-form").addEventListener("submit", function(
     
     saveData(data);
     e.target.reset();
-    myModal.hide();
+    myModal.hide();  
 
     getTransactions();
     
